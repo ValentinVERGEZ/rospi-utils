@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find gpio_interface)/launch/leds_button.launch" />
+    <node name="fake_vocal_wake_node" pkg="gpio_interface" type="fake_vocal_wake_node" />
+    <node name="simple_json_vocal_interpreter" pkg="gpio_interface" type="simple_json_vocal_interpreter.py" />
+    <node name="fake_user_identifier" pkg="gpio_interface" type="fake_user_identifier.py" />
+</launch>

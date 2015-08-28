@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>rospi_gpio</name>
+  <version>0.0.1</version>
+  <description>The rospi_gpio package</description>
+
+  <maintainer email="valentin.vergez@gmail.com">Valentin Vergez</maintainer>
+
+  <license>GPLv3</license>
+
+  <url type="repository">https://github.com/ValentinVERGEZ/rospi_utils</url>
+  <url type="bugtracker">https://github.com/ValentinVERGEZ/rospi_utils/issues</url>
+  <url type="website">https://github.com/ValentinVERGEZ/rospi_utils/wiki</url>
+
+  <author email="valentin.vergez@gmail.com">Valentin Vergez</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>

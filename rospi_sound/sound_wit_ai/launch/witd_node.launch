@@ -1,0 +1,4 @@
+<launch>
+    <node name="wit_daemon" pkg="sound_wit_ai" type="launchWitd.bash" />
+    <node name="witd_node" pkg="sound_wit_ai" type="witd_node" />
+</launch>

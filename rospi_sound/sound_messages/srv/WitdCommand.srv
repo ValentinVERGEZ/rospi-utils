@@ -1,0 +1,10 @@
+## Each requests pairs (start/stop) must be uniquely identified
+uint32 requestId
+uint8  requestType
+## Request type constants
+uint8   START=0
+uint8   STOP=1
+---
+bool    accepted
+## Error or sucess message, convenient for debug
+string  message

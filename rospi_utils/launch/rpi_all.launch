@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find gpio_interface)/launch/rpi_gpio_witai.launch" />
+    <include file="$(find sound_wit_ai)/launch/witd_node.launch" />
+</launch>

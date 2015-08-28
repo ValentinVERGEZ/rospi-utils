@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>gpio_messages</name>
+  <version>0.0.1</version>
+  <description>The gpio_messages package</description>
+
+  <maintainer email="valentin.vergez@gmail.com">Valentin Vergez</maintainer>
+
+  <license>GPLv3</license>
+
+  <url type="repository">https://github.com/ValentinVERGEZ/rospi_utils</url>
+  <url type="bugtracker">https://github.com/ValentinVERGEZ/rospi_utils/issues</url>
+  <url type="website">https://github.com/ValentinVERGEZ/rospi_utils/wiki</url>
+
+  <author email="valentin.vergez@gmail.com">Valentin Vergez</author>
+
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>

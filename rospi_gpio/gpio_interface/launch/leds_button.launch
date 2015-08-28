@@ -1,0 +1,3 @@
+<launch>
+	<node name="leds_button_node" pkg="gpio_interface" type="launchGpio_leds_button.bash" launch-prefix="sudo" />
+</launch>
